@@ -176,11 +176,6 @@ def main(args):
                                                                            augment_file_path=augment_path,
                                                                            batch_size=10, valid_split=0.2,
                                                                            num_workers=0)
-            # target_data_loader = data_loader.calibrated_domain_data_loader2(args, domains=args.tgt,
-            #                                                             file_path=opt['file_path'],
-            #                                                             augment_file_path=augment_path,
-            #                                                             batch_size=10, valid_split=0.2,
-            #                                                             test_split=0.4)
         else:
             'Load original target dataset for adaption, batch size need to be 10 or above'
             target_data_loader = data_loader.domain_data_loader(args, domains=args.tgt, file_path=opt['file_path'],
