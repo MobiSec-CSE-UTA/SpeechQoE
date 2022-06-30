@@ -1,10 +1,7 @@
 voice_option = {
     'name': 'Voice_QoE',
     'seq_len': 173,
-    # 'seq_len': 692,
-    # 'seq_len': 2249,
     'file_path': './dataset/voice_4domain_processed.csv',
-    # 'file_path': './dataset/test/cali_test.csv',
 
     'input_dim': 18,
     'learning_rate': 0.0001,
