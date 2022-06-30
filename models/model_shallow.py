@@ -9,7 +9,7 @@ sys.path.append('..')
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-feature_flatten_dim = 44032  # Calculate by (the shape feeding into FC layer)/(batch size*5), check line 112.
+feature_flatten_dim = 44032  # Calculate by (the shape feeding into FC layer)/(batch size*5), check line 120.
 # feature_flatten_dim = 143616  # for seq 2249
 # feature_flatten_dim = 1536 # for simulate data seq 25, keneral size 1
 # feature_flatten_dim = 10752  # for seq 173
