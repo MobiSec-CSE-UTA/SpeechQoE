@@ -13,5 +13,5 @@ The data is organized into three levels, user_id -> assessment_score -> session_
 
 For more details, please refer to our paper.
 
-### Publication
-Chaowei Wang, Huadi Zhu, Ming Li. 2022. SpeechQoE: A Novel Personalized QoE Assessment Model for Voice Services via Speech Sensing. *Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems* 
+## Publication
+Chaowei Wang, Huadi Zhu, Ming Li. 2022. SpeechQoE: A Novel Personalized QoE Assessment Model for Voice Services via Speech Sensing. *Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems (SenSys),* **2022** 
