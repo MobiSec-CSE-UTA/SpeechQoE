@@ -1,5 +1,5 @@
 # SpeechQoE
-A Prototype for SpeechQoE. SpeechQoE leverages speech signals to assess Quality of Experience (QoE) of online voice services. Please refer paper for more details.
+Test A Prototype for SpeechQoE. SpeechQoE leverages speech signals to assess Quality of Experience (QoE) of online voice services. Please refer paper for more details.
 
 ## Get Started 
 Once you download it to your local machine, you can run the following command in your root directory:
