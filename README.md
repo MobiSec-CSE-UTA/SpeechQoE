@@ -1,9 +1,13 @@
 # SpeechQoE
-Test2 A Prototype for SpeechQoE. SpeechQoE leverages speech signals to assess Quality of Experience (QoE) of online voice services. Please refer paper for more details.
+[I'm an inline-style link](https://www.google.com)
+[I'm an inline-style link](https://www.google.com)
 
-## Get Started 
-Once you download it to your local machine, you can run the following command in your root directory:
-```bash
-$python main.py --dataset voice --method voice_qoe --tgt dwhite --epoch 20 --log_suffix run_voice_dwhite --src rest --train True --model model_shallow --nshot 5 --ntask 1 --lr 0.03 --num_source 100 --num_aug_shot 30 --calibrate False --alpha 0.01 --k 2
-```
-Please look into main.py for explanations about parameters. 
+The SpeechQoE dataset is a collection of 7600 speech segments with user experience opinion annotated in the range [1, 5] from the worst to the best in online voice services. 
+
+## Description
+The dataset collect from 38 subjects. Two subjects form a pair to complete 200 calling sessions, each lasting 90 seconds. They sit in two separate rooms to finish a so-called Richard’s task which is like charades. Two subjects take turns describing a shape for the other to guess. A subjective assessment is conducted based on the calling experience the subject perceived after each session.
+
+## Format
+The data is organized into three levels, user_id -> assessment_score -> session_id. Especially, the assessment_score is the label for all the speech files under this folder.
+ 
+ The speech files are represented by raw amplitude and all mute periods have been removed. 
