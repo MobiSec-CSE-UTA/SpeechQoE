@@ -1,6 +1,5 @@
 # SpeechQoE
-[I'm an inline-style link](https://www.google.com)
-[I'm an inline-style link](https://www.google.com)
+[Paper](https://www.google.com) . [Dataset](https://www.google.com)
 
 The SpeechQoE dataset is a collection of 7600 speech segments with user experience opinion annotated in the range [1, 5] from the worst to the best in online voice services. 
 
