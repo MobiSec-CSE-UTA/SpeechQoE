@@ -9,7 +9,7 @@ The dataset collect from 38 subjects. Two subjects form a pair to complete 200 c
 ## Format
 The data is organized into three levels, user_id -> assessment_score -> session_id. Especially, the assessment_score is the label for all the speech files under this folder.
  
- The speech files are represented by raw amplitude and all mute periods have been removed. 
+ The speech files are represented by raw amplitude in a csv format and all mute periods have been removed. 
 
 For more details, please refer to our paper.
 
