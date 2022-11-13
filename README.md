@@ -1,5 +1,5 @@
 # SpeechQoE
-[\[Paper\]](https://www.test.com) &ensp; [\[Dataset\]](https://www.test.com)
+[\[Paper\]](https://ranger.uta.edu/~mingli/publications/SpeechQoE_SenSys%2722.pdf) &ensp; [\[Dataset\]](https://ranger.uta.edu/~mingli/dataset/SpeechQoE/)
 
 SpeechQoE dataset is a collection of 7600 speech segments with user experience opinion annotated in the range [1, 5] from the worst to the best in online voice services. 
 
